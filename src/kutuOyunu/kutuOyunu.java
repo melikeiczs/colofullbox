@@ -7,12 +7,10 @@ import java.util.List; // java.util.List'i açıkça belirt
 
 public class kutuOyunu extends JFrame {
     private static final int INITIAL_COMBINATION_LENGTH = 4;
-    private SoundPlayer soundPlayer; // SoundPlayer'ı sınıf değişkeni olarak tanımla
+
 
     // Daha canlı ve belirgin renkler
-    public void KutuOyunu() {
-        soundPlayer = new SoundPlayer();
-    }
+
 
     private static final Color[] COLORS = {
             new Color(255, 105, 180, 240), // Vibrant pembe
@@ -58,8 +56,7 @@ public class kutuOyunu extends JFrame {
     private MainMenuPanel mainMenuPanel; // Giriş ekranı
 
     public kutuOyunu() {
-        // SoundPlayer'ı başlat
-        soundPlayer = new SoundPlayer();
+
 
         setTitle("Renk Kodları Oyunu"); // Başlangıçta genel başlık
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -449,7 +446,7 @@ public class kutuOyunu extends JFrame {
     // Ana metot, Swing uygulamasını başlatır
     public static void main(String[] args) {
         // Müzik çalma kodu
-        SoundPlayer player = new SoundPlayer();
+
 
 
         // Oyunu başlat
