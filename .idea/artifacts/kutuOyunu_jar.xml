@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="kutuOyunu:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/kutuOyunu_jar</output-path>
+    <root id="archive" name="kutuOyunu.jar">
+      <element id="module-output" name="kutuOyunu" />
+    </root>
+  </artifact>
+</component>
